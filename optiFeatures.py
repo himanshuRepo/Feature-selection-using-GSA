@@ -40,7 +40,6 @@ def optiFeats(indi,df,x=None):
 
   [_,oneInd]=numpy.where(x == 1.)
 
-
   # Check number of features selected, if no feature is selected then select the first feature by default
   if oneInd.size:
   	pass
