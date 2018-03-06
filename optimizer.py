@@ -52,7 +52,7 @@ datasets=["Iris"]
 # Select number of repetitions for each experiment. 
 # To obtain meaningful statistical results, usually 30 independent runs 
 # are executed for each algorithm.
-Runs=2
+Runs=1
 
 # Select general parameters for all optimizers (population size, number of iterations)
 PopSize = 5
