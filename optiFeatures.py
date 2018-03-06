@@ -53,7 +53,7 @@ def optiFeats(indi,df,x=None):
   print("The index of optimal features are:")
   print(oneInd)
   print("\n")
-  # Save the index of selected features
+  # Save the index of selected features in the current run
   numpy.savetxt("FeatureIndex.csv", oneInd, delimiter=",")
 
   oneInd=oneInd.reshape(1, -1)
