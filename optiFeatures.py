@@ -53,6 +53,8 @@ def optiFeats(indi,df,x=None):
   print("The index of optimal features are:")
   print(oneInd)
   print("\n")
+  # Save the index of selected features
+  numpy.savetxt("FeatureIndex.csv", oneInd, delimiter=",")
 
   oneInd=oneInd.reshape(1, -1)
   df1=pd.DataFrame(df, copy=True)
